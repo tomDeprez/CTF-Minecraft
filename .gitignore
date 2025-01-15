@@ -1,0 +1,95 @@
+# Ignorer les répertoires générés
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+versions/
+work/
+BuildData/
+bundler/
+CraftBukkit/
+Spigot/
+versions/
+work/
+libraries/
+# Ignorer les fichiers temporaires et de cache
+*.log
+*.tmp
+
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+*.yml
+# Ignorer les fichiers de configuration Minecraft spécifiques au serveur
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+
+# Ignorer les fichiers générés par BuildTools et Spigot
+BuildData/
+bundler/
+CraftBukkit/
+Spigot/
+versions/
+work/
+libraries/
+
+# Ignorer les fichiers jar et les logs générés
+# Ignorer les fichiers source et dossiers inutiles
+*.java
+src/
+.idea/
+.vscode/
+.DS_Store
+
+# Ignorer les fichiers générés par Minecraft
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+
+# Ignorer les fichiers de configuration spécifiques au serveur
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+
+# Ignorer les fichiers générés par BuildTools
+BuildData/
+bundler/
+CraftBukkit/
+Spigot/
+versions/
+work/
+libraries/
+
+# Garder uniquement les fichiers .jar nécessaires
+!spigot-*.jar
+!plugins/*.jar
+
+# Ignorer les autres fichiers générés ou inutiles
+*.log
+eula.txt
+server.properties
+
+*.log
+
+# Ignorer les fichiers de configuration personnels
+eula.txt
+server.properties
+
+# Ignorer les fichiers système et IDE
+.vscode/
+.DS_Store
+*.swp
+*.bak
+
+# Ignorer les fichiers Maven inutiles (si présents)
+target/
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+release.properties
