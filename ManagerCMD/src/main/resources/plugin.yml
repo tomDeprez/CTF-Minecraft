@@ -1,0 +1,11 @@
+name: ManagerCMD
+version: 1.0
+main: com.votre_nom.ManagerCMD.Main
+api-version: 1.21
+commands:
+  joinblue:
+    description: Rejoindre l'équipe bleue.
+  joinred:
+    description: Rejoindre l'équipe rouge.
+  teamcount:
+    description: Afficher le nombre de joueurs dans chaque équipe.

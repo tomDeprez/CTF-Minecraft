@@ -93,3 +93,19 @@ target/
 pom.xml.versionsBackup
 pom.xml.releaseBackup
 release.properties
+
+
+# Ignorer tout dans ManagerCMD par défaut
+ManagerCMD/**
+
+# Inclure le dossier ManagerCMD et son contenu utile
+!ManagerCMD/
+!ManagerCMD/src/
+!ManagerCMD/src/**
+!ManagerCMD/pom.xml
+!ManagerCMD/watch.sh
+
+# Ignorer les sous-dossiers inutiles
+ManagerCMD/logs/
+ManagerCMD/target/
+ManagerCMD/bundler/
